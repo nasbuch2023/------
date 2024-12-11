@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FLearn</title>
+    <link type="Image/x-icon" href="/images/icon.svg" rel="icon">
+</head>
+<body>
+    <div class="wrapper">
+      
+        <header>
+            <div class="logo" onclick="document.location='index.html'"><img src="images/logoicon.svg" alt="">Flearn</div>
+            <div class="buttons">
+                <button popovertarget="my-popover" popovertargetaction="show" class="text_btn">Выбрать лекцию</button>
+                <button onclick="document.location='lectures.html'" class="main_btn">Начать</button>
+            </div>
+            <div id="my-popover" popover>
+                <div class="my-popover-wrap">
+                    <img src="/images/search.svg" alt="">
+                <div class="nav">
+                    <p onclick="document.location='lectures.html'">Изучение программы</p>
+                    <a href="lecture01.html">Знакомство с программой</a>
+                    <a href="lecture02.html">Работа с фигурами</a>
+                    <a href="lecture03.html">Работа с фреймами</a>
+                </div>
+                <div class="nav">
+                    <p>Основы дизайна</p>
+                    <a href="lecture04.html">Теория цвета</a>
+                    <a href="lecture05.html">Основы композиции</a>
+                    <a href="lecture06.html">Правила типографики</a>
+                </div>
+                <div class="nav">
+                    <p>Стили и компоненты</p>
+                    <a class="null" href="lecture07.html">Варианты</a>
+                    <a class="null" href="lecture08.html">Стили</a>
+                    <a class="null" href="lecture09.html">Компоненты</a>
+                </div>
+                </div>    
+              </div>
+            <!--<div id='mypopver' popover="auto"><img src="images/search.svg" alt="">popover</div>-->
+           
+
+        </header>
+        <div class="content">
+            <div class="list_title">Изучение <br>программы
+                <img src="images/лекции.svg" alt="">
+            </div>
+            <ul class="cards">
+                <li class="card" onclick="document.location='lecture01.html'">
+                    <div class="img_wrap">
+                        <div class="text_wrap">
+                            <p class="label">Лекция</p>
+                            <p class="title">Знакомство <br>с программой</p>
+                        </div>
+                        <img src="images/lec1.svg" alt="">
+                    </div>
+                    <p class="time">1 час</p>
+                </li>
+                <li class="card" style="background-color: #E7E7FF;">
+                    <div class="img_wrap">
+                        <div class="text_wrap">
+                            <p class="label">Лекция</p>
+                            <p class="title">Создание проекта</p>
+                        </div>
+                        <img src="images/lec2.svg" alt="">
+                    </div>
+                    <p class="time">1 час</p>
+                </li>   
+                <li class="card" style="background-color: #F3E8C8;">
+                    <div class="img_wrap">
+                        <div class="text_wrap">
+                            <p class="label">Лекция</p>
+                            <p class="title">Работа с фреймами</p>
+                        </div>
+                        <img src="images/lec3.svg" alt="">
+                    </div>
+                    <p class="time">1 час</p>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="top">
+                <div class="textwrap">
+                    <h2>Нужна помощь?<br>
+                    Напишите нам</h2>
+                    <p>При наличии вопроса можете оставить свой комментарий <br> и почту для контакта</p>
+                </div>
+                <div class="formwrap">
+                    <div class="inputwrap">
+                        <input type="text", placeholder="Ваше имя">
+                        <input type="text", placeholder="example@mail.com">
+                    </div> 
+                    <textarea name="", placeholder="Отзыв или предложение" id=""></textarea>
+                    <button>Отправить</button>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <div class="inlinewrapper">
+                    <div class="logo">
+                        <img src="images/logoicon02.svg" alt="">Flearn
+                    </div>
+                    <p>merelicey@mail.com</p>
+                    <div class="social">
+                        <img src="images/тг.svg" alt="тг">
+                        <img src="images/вк.svg" alt="вк">
+                    </div>
+                </div>
+                <div class="line">
+                    <hr>
+                    <p>© FLearn 2024</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+   
+    
+    
+</body>
+</html>

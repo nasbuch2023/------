@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FLearn</title>
+    <link type="Image/x-icon" href="/images/icon.svg" rel="icon">
+</head>
+<body>
+    <div class="wrapper">
+      
+        <header>
+            <div class="logo" onclick="document.location='index.html'"><img src="images/logoicon.svg" alt="">Flearn</div>
+            <div class="buttons">
+                <button popovertarget="my-popover" popovertargetaction="show" class="text_btn">Выбрать лекцию</button>
+                <button onclick="document.location='lectures.html'" class="main_btn">Начать</button>
+            </div>
+            <div id="my-popover" popover>
+                <div class="my-popover-wrap">
+                    <img src="/images/search.svg" alt="">
+                <div class="nav">
+                    <p>Изучение программы</p>
+                    <a href="lecture01.html">Знакомство с программой</a>
+                    <a href="lecture01.html">Работа с фигурами</a>
+                    <a href="lecture frame.html">Работа с фреймами</a>
+                </div>
+                <div class="nav">
+                    <p>Основы дизайна</p>
+                    <a href="lecture01.html">Теория цвета</a>
+                    <a href="lecture01.html">Основы композиции</a>
+                    <a href="lecture01.html">Правила типографики</a>
+                </div>
+                </div>
+                
+                
+              </div>
+            <!--<div id='mypopver' popover="auto"><img src="images/search.svg" alt="">popover</div>-->
+           
+
+        </header>
+        <div class="content">
+            <div class="lecture_wrap">
+                <div class="lecture_title">
+                    <h1>Работа с фреймами</h1>
+                    <div class="text_img">
+                        <div class="btn_text">
+                            <p>В Figma фрейм — это рабочая область для Вашего дизайна. 
+                                Фрейм позволяет изменять размеры экрана и контролировать расположение элементов внутри него. Образно: рабочая область — холст, а внутренние элементы — это сгруппированные части рисунка.
+                                На всякий случай: в других графических редакторах чаще применяется слово «артборд».</p>
+                            <a 
+                            class="redirect_button"
+                            href='https://www.figma.com/design/8bUsrK9Bxu2e7CyeLs5uYW/%D0%A2%D1%80%D0%B5%D0%BD%D0%B0%D0%B6%D0%B5%D1%80-Auto-Layout?node-id=0-1&t=4jpy7Vz95PfYspUd-1'
+                            >
+                            <img src="images/icon2.svg" alt="">Упражнение в figma
+                            </a>
+                        </div>
+                        <img src="images/картинка.svg" alt="картинка">
+                    </div>
+                </div>
+            </div>
+            <div class="lecture_wrap">
+                
+                <iframe
+                width="720"
+                height="405"
+                src="https://rutube.ru/play/embed/1714be231295973b6a91c9af3471a100"
+                frameBorder="0"
+                allow="clipboard-write; autoplay"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowFullScreen
+                ></iframe>
+  
+                
+                <div class="lecture_block">
+                    <h3>Создание фрейма</h3>
+                    <p>Создавайте рамки на холсте с помощью инструмента «Frame»: <br>
+                        – Используйте сочетания клавиш F или A <br>
+                        – Выберите инструмент «Frame» на панели инструментов.</p>
+                    <img src="images/картинка1.png" alt="">
+                </div>
+                <div class="lecture_block">
+                    <h3>Свойства  фрейма</h3>
+                    <p>Есть несколько свойств, связанных с фреймами. Фреймы поддерживают следующие свойства. <br>
+                        - Радиус угла : скруглите угол рамки, чтобы создать более мягкие края. <br>
+                        - Содержимое клипа : скройте все объекты внутри кадра, которые выходят за его пределы.<br>
+                        - Сетки макетов : создавайте направляющие, которые помогут вам создать визуальную структуру вашего дизайна.<br>
+                        - Автоматическая компоновка:  создание динамических фреймов, которые реагируют на их содержимое.<br>
+                        - Заливка : применение сплошной заливки, градиента, изображений (PNG, JPEG, GIF, TIFF и WEBP) к рамке.  <br>
+                        - Обводка : добавьте обводку к рамке, чтобы создать границу или контур.<br>
+                        - Эффекты : добавление тени или размытия к кадру.</p>
+                    <img src="images/картинка2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="top">
+                <div class="textwrap">
+                    <h2>Нужна помощь?<br>
+                    Напишите нам</h2>
+                    <p>При наличии вопроса можете оставить свой комментарий <br> и почту для контакта</p>
+                </div>
+                <div class="formwrap">
+                    <div class="inputwrap">
+                        <input type="text", placeholder="Ваше имя">
+                        <input type="text", placeholder="example@mail.com">
+                    </div> 
+                    <textarea name="", placeholder="Отзыв или предложение" id=""></textarea>
+                    <button>Отправить</button>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <div class="inlinewrapper">
+                    <div class="logo">
+                        <img src="images/logoicon02.svg" alt="">Flearn
+                    </div>
+                    <p>merelicey@mail.com</p>
+                    <div class="social">
+                        <img src="images/тг.svg" alt="тг">
+                        <img src="images/вк.svg" alt="вк">
+                    </div>
+                </div>
+                <div class="line">
+                    <hr>
+                    <p>© FLearn 2024</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+   
+    
+    
+</body>
+</html>

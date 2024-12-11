@@ -1,0 +1,571 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0px;
+}
+.wrapper{
+    max-width: 1360px;
+    width: 100%;
+    content: none;
+}
+header{
+    margin: 20px  16px 0 16px;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    border: solid 1px #E6E6E6;
+    padding: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 20px;
+}
+
+header :hover {
+    cursor: pointer;
+    color: #5E5D5C;
+} 
+
+header a {
+    color: #1A1A1A;
+    
+}
+
+
+.main_btn{
+    color: white;
+    background-color: #1A1A1A;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.main_btn:hover{
+    background-color: #F26556;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #fff;
+}
+
+.text_btn {
+    border: none;
+    padding: 16px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color:#F5F5F5;
+}
+
+.buttons {
+    display: flex;
+    width: fit-content;
+    gap: 12px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.my-popover-wrap {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 32px;
+    gap: 60px;
+}
+
+[popover]::backdrop {
+    background-color: #1A1A1A;
+    opacity: 0.2;
+}
+
+#my-popover{
+    border: solid 1px #E6E6E6;
+    width: 1060px;
+    height: 212px;
+    border-radius: 12px;
+    margin-top: 118px;
+}
+#my-popover img {
+    width: 140px;
+}
+
+
+
+.main_title{
+    font-weight: 400;
+    font-size: 96px;
+    letter-spacing: -0.06em;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.content{
+    padding: 120px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.container{
+    display: flex;
+    gap: 16px;
+}
+
+footer{
+    display: flex;
+    color: #E6E6E6;
+    background-color: #1A1A1A;
+    width: 100%;
+    justify-content: center;
+    padding: 120px 0 60px 0;
+   
+}
+
+footer .wrapper{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap:60px
+}
+footer .wrapper hr{
+   width: 100%;
+  border-color: #c6c6c6;
+  
+}
+
+footer .wrapper p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #C6C6C9;
+    display: flex;
+}
+
+footer .wrapper h2{
+    font-size: 64px;
+    font-weight: 200px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+footer .wrapper  .textwrap{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.formwrap input{
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 20px;
+    background-color: #F5F5F5;
+    border: solid 1px #E6E6E6;
+    border-radius: 8px;
+}
+
+.formwrap textarea{
+    display: flex;
+    font-size: 16px;
+    min-height: 120px;
+    padding: 16px 20px;
+    background-color: #F5F5F5;
+    border: solid 1px #E6E6E6;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.formwrap button{
+    background-color: #5551FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.formwrap button:hover{
+    background-color: #2D29D7;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.formwrap .inputwrap{
+    display: flex;
+    gap: 16px;
+}
+
+.formwrap{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 24px;
+    width: 100%;
+}
+footer .wrapper .top{
+    display: flex;
+    width: 100%;   
+}
+
+.social{
+    display: flex;
+    gap: 12px;
+    width: 68px;
+
+}
+.social img{
+    width: 28px;
+}
+footer .wrapper .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+footer .logo{
+    padding: 0px;
+}
+.inlinewrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.blocks_wrap {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    flex-direction: row;
+}
+.blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.blocks_wrap .block2 {
+    display: flex;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 24px;
+    border-radius: 32px;
+    background-image: url(images/block2.svg);
+    content: none;
+    height: 440px;
+}
+
+.blocks_wrap .block3 {
+    display: flex;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 24px;
+    background-image: url(images/block3.svg);
+    content: none;
+    height: 440px;
+}
+
+.blocks_wrap .block2 p {
+    font-size: 40px;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+
+
+
+
+
+.null {
+    color: #c6c6c6;
+}
+
+
+
+
+
+
+
+.lecture_wrap{
+    max-width: 1000px;
+}
+
+.lecture_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.lecture_title h1 {
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: -0.04em;
+    margin-top: 0;
+}
+.lecture_title p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 150%;
+}
+
+.lecture_title .redirect_button{
+    color: white;
+    background-color: #1A1A1A;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    width: fit-content;
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.lecture_title .redirect_button :hover {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.lecture_title .redirect_button div{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: fit-content;
+}
+
+.lecture_title .redirect_button img {
+    height: 20px;
+    width: 20px;
+}
+.lecture_title img{
+    width: 100%;
+    max-width: 240px;
+    height: 240px;
+    border-radius: 24px;
+}
+.btn_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_img {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    max-height: 240px;
+}
+
+.lecture_block p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 150%;
+    margin: 0;
+}
+
+.lecture_block h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.lecture_block{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 120px 0;
+}
+
+.list_title img{
+    max-height: 512px;
+    max-width: 825px;
+}
+.list_title {
+    font-size: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    letter-spacing: -0.06em;
+}
+.card .title {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    margin: 0;
+}
+
+.card .label, .time {
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    max-width: 160px;
+    height: 100%;
+    max-height: 160px;
+    border-radius: 12px;
+}
+
+.card{
+    list-style: none;
+    border-radius: 32px;
+    background-color: #C5D7D0;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+    width: 100%;
+    max-width: 587.5px;
+}
+
+.card .img_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card .text_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cards {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.block1 {
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 24px;
+    border-radius: 32px;
+    gap: 32px;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.block2 {
+   display: flex;
+   flex-direction: column;
+   gap: 200px;
+}
+
+.block1 img {
+    max-height: 216px;
+}
+
+.block3 {
+    border-radius: 32px;
+    background-color: #E6E6E6;
+}
+
+.block4 {
+    border-radius: 32px;
+    background-color: #E6E6E6;
+}
+
+.lecture_wrap video {
+    display: flex;
+    width: max-content;
+}
+
+
+#unit1 :hover, #unit2 :hover{
+    color:#5E5D5C;
+    cursor: pointer;
+}
+
+
+#block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: none;
+}
+
+#block2 {
+    background-image: url(images/img1.png);   
+}
+
+
+#block3 {
+    background-image: url(images/img2.png);   
+}
+
+#block4 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: none;
+}
+
+#block5 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background: none;
+}
+#block6 {
+    background-image: url(images/img3.png);   
+}
+
+#blocks2 {
+    margin: 60px 0px;
+}
+
+#main_list_title {
+    text-align: center;
+    margin: 60px 0;
+}
+
+#mypopver{
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    border: solid 1px #E6E6E6;
+
+    width: 840px;
+    height: 212px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+}
+
+#mypopver img{
+    height: 148px;
+}
+
+
+.icon{
+    width: 13px;
+}
+  
